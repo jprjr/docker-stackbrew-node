@@ -21,7 +21,7 @@ RUN     useradd -m default
 
 WORKDIR /home/default
 
-USER    node_user
+USER    default
 ENV     HOME /home/default
 ENV     NODE_PATH /usr/lib/node_modules
 RUN     touch /home/default/.foreverignore
