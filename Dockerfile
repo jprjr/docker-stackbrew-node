@@ -13,6 +13,7 @@ RUN npm -g install forever
 RUN npm -g install coffee-script
 RUN npm -g install express
 RUN npm -g install underscore
+RUN npm -g install primus --save
 
 # Remove things for building modules
 RUN apt-get remove -y manpages manpages-dev g++ gcc cpp make python-software-properties unattended-upgrades ucf g++-4.6 gcc-4.6 cpp-4.6
