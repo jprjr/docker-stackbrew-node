@@ -18,12 +18,13 @@ RUN npm -g install primus --save
 # Remove things for building modules
 RUN apt-get remove -y manpages manpages-dev g++ gcc cpp make python-software-properties unattended-upgrades ucf g++-4.6 gcc-4.6 cpp-4.6
 
-RUN     useradd -m node_user
+RUN     useradd -m default
 
-WORKDIR /home/node_user
+WORKDIR /home/default
 
-USER    node_user
-ENV     HOME /home/node_user
+USER    default
+ENV     HOME /home/default
 ENV     NODE_PATH /usr/lib/node_modules
+RUN     touch /home/default/.foreverignore
 
 ENTRYPOINT ["forever"]
