@@ -13,6 +13,7 @@ RUN npm -g install forever
 RUN npm -g install coffee-script
 RUN npm -g install express
 RUN npm -g install underscore
+RUN npm -g install faye
 RUN npm -g install primus --save
 
 # Remove things for building modules
