@@ -15,6 +15,7 @@ RUN npm -g install express
 RUN npm -g install underscore
 RUN npm -g install faye
 RUN npm -g install faye-websocket
+RUN npm -g install redis
 RUN npm -g install request
 RUN npm -g install primus --save
 
