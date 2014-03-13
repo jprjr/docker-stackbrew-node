@@ -18,6 +18,8 @@ RUN npm -g install faye-websocket
 RUN npm -g install redis
 RUN npm -g install faye-redis
 RUN npm -g install request
+RUN npm -g install mysql
+RUN npm -g install ldapjs
 RUN npm -g install winston
 RUN npm -g install winston-elasticsearch
 RUN npm -g install primus --save
