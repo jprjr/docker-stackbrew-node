@@ -12,6 +12,7 @@ RUN npm -g install socket.io
 RUN npm -g install forever
 RUN npm -g install coffee-script
 RUN npm -g install express
+RUN npm -g install body-parser
 RUN npm -g install underscore
 RUN npm -g install faye
 RUN npm -g install faye-websocket
