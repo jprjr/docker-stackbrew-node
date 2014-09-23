@@ -24,6 +24,7 @@ RUN npm -g install ldapjs
 RUN npm -g install winston
 RUN npm -g install winston-elasticsearch
 RUN npm -g install winston-syslog
+RUN npm -g install winston-logstash
 RUN npm -g install primus --save
 
 # Remove things for building modules
